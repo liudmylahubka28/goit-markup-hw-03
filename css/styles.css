@@ -127,10 +127,10 @@ img {
 .hero-button:hover, .hero-button:focus {
     background-color: #404BBF;
 }
-.features-container {
+.features-section {
     padding: 120px 0;
 }
-.visibility-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;

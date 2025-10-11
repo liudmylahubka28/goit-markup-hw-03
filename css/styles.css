@@ -127,7 +127,10 @@ img {
 .hero-button:hover, .hero-button:focus {
     background-color: #404BBF;
 }
-.visually-hidden {
+.features-container {
+    padding: 120px 0;
+}
+.visibility-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -139,9 +142,7 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.features-container {
-    padding: 120px 0;
-}
+
 .features-link {
     width: calc((100% - 72px) / 4);
 }

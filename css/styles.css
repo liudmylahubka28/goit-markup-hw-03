@@ -92,13 +92,11 @@ img {
 .page-hero {
     background-color: #2E2F42;
     padding: 188px 0;
-}
-.page-hero-container  {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 48px;
 }
+
 .page-text {
     font-size: 56px;
     line-height: 1.07;
@@ -123,6 +121,7 @@ img {
     height: 56px;
     border: none;
     text-align: center;
+    margin: auto;
 }
 .hero-button:hover, .hero-button:focus {
     background-color: #404BBF;
